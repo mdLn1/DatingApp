@@ -49,8 +49,8 @@ export class MemberDetailComponent implements OnInit {
           description: this.user.photos[i].description
         }
       );
+      }
       return imageUrls;
-    }
   }
   // loadUser() {
   //   this.userService.getUser(this.route.snapshot.params['id']).subscribe((user: User) => {
